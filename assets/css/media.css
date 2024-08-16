@@ -1,0 +1,137 @@
+@media (max-width: 1110px) {
+    .nav,
+    .header__contact {
+        display: none;
+    }
+
+    .mobile-menu, .header__logo {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 992px) {
+    .header {
+        padding: 2.5rem 1.25rem;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .about-company, .contact {
+        width: 100%;
+    }
+
+    .about-company {
+        min-height: 37.5rem;
+    }
+
+    .contact {
+        padding: 1.875rem 1.25rem;
+        box-shadow: 0 0 0.938rem 0 #0000001A;
+    }
+
+    .contact__title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .contact__text {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .contact__form {
+        gap: 1.25rem;
+    }
+
+    .contact__form .btn {
+        margin: 0 auto;
+    }
+
+    .contact__form-row {
+        flex-direction: column;
+    }
+
+    .contact__form-group {
+        margin-bottom: 0;
+    }
+
+    .our-clients__wrapper {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+    .our-audience__title {
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .our-audience__inner-container {
+        right: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .our-model__title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-audience {
+        margin-bottom: 1.875rem;
+    }
+
+    .our-audience__wrapper {
+        background: none;
+        height: auto;
+    }
+
+    .our-audience__inner-container {
+        box-shadow: none;
+        width: 100%;
+        position: relative;
+        right: 0;
+        left: 0;
+        transform: none;
+    }
+
+    .our-audience__block {
+        padding: 0 1.25rem;
+    }
+
+    .our-audience__block-item {
+        flex-direction: column-reverse;
+    }
+
+    .our-model__title {
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .our-model__slider-buttons {
+        display: none;
+    }
+
+    .our-model__slider {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .our-model__slider .our-model__slider-item::after {
+        content: none;
+    }
+
+    .footer__menu {
+        gap: 0.313rem;
+        flex-wrap: wrap;
+    }
+
+    .footer__menu .footer__menu-item {
+        padding: 0.938rem;
+    }
+}

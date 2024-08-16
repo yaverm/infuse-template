@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, figure,
+dl, dd {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    white-space: normal;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+iframe {
+    border: 0;
+}
+
+audio, video {
+    display: inline-block;
+}
+
+summary {
+    display: list-item;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+code, kbd, samp, pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
